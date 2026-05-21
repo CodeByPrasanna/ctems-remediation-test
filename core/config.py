@@ -1,16 +1,23 @@
 from dotenv import load_dotenv
 import os
 
+# Load variables from .env
 load_dotenv()
 
-DATABASE_URL=os.getenv(
+
+# Database
+DATABASE_URL = os.getenv(
     "DATABASE_URL"
 )
 
-GITHUB_TOKEN=os.getenv(
+
+# GitHub Token
+GITHUB_TOKEN = os.getenv(
     "GITHUB_TOKEN"
 )
 
-GEMINI_API_KEY=os.getenv(
+
+# Gemini API
+GEMINI_API_KEY = os.getenv(
     "GEMINI_API_KEY"
 )
