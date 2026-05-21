@@ -1,0 +1,6 @@
+{
+    "oauthScopes": [
+        "spreadsheets",
+        "drive"
+    ]
+}
